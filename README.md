@@ -16,3 +16,17 @@ git clone https://github.com/thatguynoe/dmenu
 cd dmenu
 sudo make install
 ```
+
+### Updates
+
+The suckless dmenu development branch is the `master` branch in this repo. Consequently, this makes updating dmenu quite easy:
+
+```sh
+git clone https://github.com/thatguynoe/dmenu
+cd dmenu
+
+git switch master
+git pull upstream master
+git switch main
+git merge master
+```
